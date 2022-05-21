@@ -1,0 +1,178 @@
+#yan-img {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    background-image: url('../Images/indImages/yanukovych.jpg');
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+}
+
+#kuchma-img {
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+    background-image: url('../Images/indImages/kuchma.jpg');
+    background-size: 140% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#yelt-img {
+    grid-row: 1 / 3;
+    grid-column: 4 / 6;
+    background-image: url('../Images/indImages/yeltsin.jpg');
+    background-size: 100% 230%;
+    background-repeat: no-repeat;
+}
+
+#putin-img {
+    grid-row: 3 / 6;
+    grid-column: 1 / 3;
+    background-image: url('../Images/indImages/putin.jpg');
+    background-size: 100% 160%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#zel-img {
+    grid-row: 3 / 6;
+    grid-column: 3 / 5;
+    background-image: url('../Images/indImages/zelensky.jpg');
+    background-size: 100% 100%;
+    background-position: no-repeat;
+}
+
+#tym-img {
+    grid-row: 3 / 6;
+    grid-column: 5 / 6;
+    background-image: url('../Images/indImages/tymoschenko.jpg');
+    background-size: 120% 100%;
+    background-position: center;
+    background-position: no-repeat;
+}
+
+#girkin-img {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    background-image: url('../Images/indImages/girkin.jpg');
+    background-size: 100% 140%;
+}
+
+#yus-img {
+    grid-row: 1 / 3;
+    grid-column: 4 / 6;
+    background-image: url('../Images/indImages/yuschenko.jpg');
+    background-size: 100% 150%;
+    background-position: 0%;
+}
+
+#poros-img {
+    grid-row: 3 / 6;
+    grid-column: 1 / 3;
+    background-image: url('../Images/indImages/poroshenko.jpg');
+    background-size: 100% 100%;
+}
+
+#obama-img {
+    grid-row: 3 / 6;
+    grid-column: 4 / 6;
+    background-image: url('../Images/indImages/obama.jpg');
+    background-size: 120% 100%;
+}
+
+#gorbatjov-img {
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+    background-image: url('../Images/indImages/gorbatjov.jpg');
+    background-size: 100% 120%;
+}
+
+#krav-img {
+    grid-row: 3 / 6;
+    grid-column: 3 / 4;
+    background-image: url('../Images/indImages/kravchuk.jpg');
+    background-size: 230% 100%;
+    background-position: center;
+}
+
+#first-ind-cont {
+    border: 2.5px solid white;
+}
+
+#second-ind-cont {
+    border: 2.5px solid white;
+    border-top: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    #first-ind-cont {
+        border: none;
+    }
+
+    #second-ind-cont {
+        border: none;
+    }
+
+    [data-id="ind-images-main-container"] {
+        height: 200vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(101,101,101);
+        background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(43,43,43,1) 50%, rgba(92,92,92,1) 100%);
+            }
+
+    #yan-img, #kuchma-img, #yelt-img,
+    #putin-img, #zel-img, #tym-img,
+    #girkin-img, #yus-img, #poros-img,
+    #obama-img, #gorbatjov-img, #krav-img {
+        width: 100%;
+        height: 20%;
+        box-shadow: 3px 3px 6px black;
+    }
+
+    #kuchma-img {
+        background-size: 100% 120%;
+        background-position: center;
+    }
+
+    #tym-img {
+        background-size: 100% 160%;
+        background-position: top;
+    }
+
+    #girkin-img {
+        background-size: 100% 200%;
+        background-position: center;
+    }
+
+    #putin-img {
+        background-size: 100% 180%;
+    }
+
+    #zel-img {
+        background-size: 100% 140%;
+    }
+
+    #krav-img {
+        background-size: 140% 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #yan-cont p, #kuchma-cont p, #yelt-cont p,
+    #putin-cont p , #zel-cont p, #tym-cont p,
+    #girkin-cont p, #yus-cont p, #poros-cont p,
+    #obama-cont p, #gorbatjov-cont p, #krav-cont p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-height: 250px) and (max-height: 650px) and (min-width: 550px) and (max-width: 1100px) {
+    #yan-img, #kuchma-img, #yelt-img,
+    #putin-img, #zel-img, #tym-img,
+    #girkin-img, #yus-img, #poros-img,
+    #obama-img, #gorbatjov-img, #krav-img {
+        background: none;
+        }
+}
+

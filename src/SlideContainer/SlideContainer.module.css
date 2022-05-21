@@ -1,0 +1,95 @@
+.mainContainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    max-width: 100vw;
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgPosContainer {
+    height: 7.5%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(150, 150, 150, 0.25);
+}
+
+.right {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    border: solid wheat;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  z-index: 10;
+  display: none;
+}
+
+.left {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    border: solid wheat;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  z-index: 10;
+  display: none;
+}
+
+.imgPosContainer h3 {
+    color: white;
+    cursor: pointer;
+}
+
+.imgPosContainer h3:hover {
+    text-decoration: underline;
+}
+
+.imgSlideContainer {
+    height: 92.5%;
+    width: 100%;
+    background: gray;
+    overflow-x: hidden;
+}
+
+.imgSlideContainer .slideContainer {
+    width: 600%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imgSlideContainer .slideContainer div {
+    width: calc(100%/6);
+    height: 100%;
+}
+
+.textContainer {
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.textContainer p {
+    width: 50%;
+    line-height: 30px;
+}

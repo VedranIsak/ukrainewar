@@ -1,0 +1,154 @@
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainContainer .topContainer {
+    height: 25%;
+    width: 100%;
+    box-shadow: 3px 3px 6px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../Images/banner1.jpg');
+    background-size: 100% 450%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.mainContainer .topContainer .largeTextContainer {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 6px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32.5%;
+    height: 25%;
+}
+
+.mainContainer .topContainer .largeTextContainer h2 {
+    text-decoration: underline;
+}
+
+.mainContainer .topContainer .largeTextContainer h2, .mainContainer .topContainer .smallTextContainer h3 {
+    color: white;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.mainContainer .topContainer .smallTextContainer {
+    width: 27.5%;
+    height: 22.5%;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 6px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .middleContainer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.mainContainer .middleContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .bottomContainer {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 1px 1px 6px black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}
+
+.mainContainer .bottomContainer div {
+    position: relative;
+    overflow: hidden;
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.mainContainer .bottomContainer div div {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    border-radius: 75px;
+    height: 15%;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px black;
+    transition: background .5s;
+}
+
+.mainContainer .bottomContainer div div:hover {
+    background: rgba(0 , 0, 0, 0.9);
+}
+
+.mainContainer .bottomContainer div div h3 {
+    border-radius: 6px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainContainer .bottomContainer div div h3:hover {
+    text-shadow: 1px 1px 2px white;
+}
+
+.mainContainer .bottomContainer .imgContainer:first-of-type {
+    background-image: url('../Images/ukrainemap1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainContainer .bottomContainer .imgContainer:nth-of-type(2) {
+    background-image: url('../Images/battle1.jpg');
+    background-size: 130% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.mainContainer .bottomContainer .imgContainer:nth-of-type(3) {
+    background-image: url('../Images/protester1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainContainer .bottomTextContainer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-top: 100%;
+}
+
+.mainContainer .bottomTextContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

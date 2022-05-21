@@ -1,0 +1,15 @@
+.titleContainer {
+    height: 10vh;
+    width: 100%;
+    background: black;
+    color: white;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer h3 {
+    text-align: center;
+}
