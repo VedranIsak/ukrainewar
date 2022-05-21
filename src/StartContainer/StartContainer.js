@@ -7,8 +7,8 @@ export default class StartContainer extends Component {
     componentDidMount() {
         var imgDivs = document.querySelectorAll(".img-info-container")
         let topMargin = "0%";
-        if(window.innerWidth > "1000px") {
-            topMargin = "37.5%";
+        if(window.innerWidth > "1000") {
+            topMargin = "42.5%";
         }
         else {
             topMargin = "25%";
