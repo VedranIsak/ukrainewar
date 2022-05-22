@@ -52,6 +52,18 @@ export default class SlideContainer extends Component {
         this.slide.animate({ 'marginLeft': `${newMargin}%`}, 500).onfinish = () => { 
             this.slide.setAttribute("data-curr-margin", newMargin);
             this.slide.style.marginLeft = `${newMargin}%` };
+
+        margin == "100" ? this.highlightArrow(false) : this.highlightArrow(true);
+    }
+
+    highlightArrow(isRightArrow) {
+        let arrows = document.querySelectorAll(`#${this.props.id}Cont [data-id="arrow-container"]`);
+        let index = 0;
+        isRightArrow ? index = 1 : index = 0;
+
+        arrows[index].animate({"borderColor": "rgb(100, 100, 100)"}, 550).onfinish = () => {
+            arrows[index].animate({"borderColor": "rgb(245, 222, 179)"}, 550);
+        }
     }
 
     render() {
@@ -66,8 +78,8 @@ export default class SlideContainer extends Component {
                         <h3 className='header' onClick={() => { this.switchSlide("400"); }}>{this.props.headers[4]}</h3>
                         <h3 className='header' onClick={() => { this.switchSlide("500"); }}>{this.props.headers[5]}</h3>
                     </div>
-                        <div onClick={() => { this.incrementSlide("100"); }} data-id="arrow-container" className={styles.left}></div>
-                        <div onClick={() => { this.incrementSlide("-100") }} data-id="arrow-container" className={styles.right}></div>
+                    <div onClick={() => { this.incrementSlide("100"); }} data-id="arrow-container" className={styles.left}></div>
+                    <div onClick={() => { this.incrementSlide("-100") }} data-id="arrow-container" className={styles.right}></div>
                     <div data-id="imgSlideContainer" className={styles.imgSlideContainer}>
                         <div id={this.props.id} data-curr-margin="0" className={styles.slideContainer}>
                             <div id={this.props.ids[0]}>
