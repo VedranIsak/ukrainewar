@@ -29,14 +29,12 @@ export default class StartContainer extends Component {
         return (
         <div className={styles.mainContainer}>
             <div id="top-header-container" className={styles.topContainer}>
-                <div className={styles.largeTextContainer}>
+                <div className={styles.textContainer}>
                     <h2>The Russian-Ukrainian war</h2>
-                </div>
-                <div className={styles.smallTextContainer}>
                     <h3>The origins of the conflict</h3>
                 </div>
             </div>
-            <div className={styles.middleContainer}>
+            <div id="middle-header-container" className={styles.middleContainer}>
                 <div>
                     <h3>Your guide to understanding the war</h3>
                 </div>
@@ -55,6 +53,11 @@ export default class StartContainer extends Component {
                 <div id="ind-img-container" className={styles.imgContainer}>
                     <div onClick={() => { this.scrollTo("first-ind-cont"); }} className='img-info-container'>
                         <h3>The individuals</h3>
+                    </div>
+                </div>
+                <div id="vid-img-container" className={styles.imgContainer}>
+                    <div onClick={() => { this.scrollTo("vice-vid-cont"); }} className='img-info-container'>
+                        <h3>The footage</h3>
                     </div>
                 </div>
             </div>

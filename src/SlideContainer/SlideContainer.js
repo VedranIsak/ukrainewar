@@ -7,9 +7,27 @@ export default class SlideContainer extends Component {
         super(props);
     }
 
+    lastClickedHeader = 0;
+
     switchSlide(margin) {
         this.slide = document.getElementById(this.props.id);
         this.slide.animate({ 'marginLeft': `-${margin}%`}, 500).onfinish = () => { this.slide.style.marginLeft = `-${margin}%` };
+
+        this.highlight(margin);
+    }
+
+    highlight(margin) {
+        let headers = document.querySelectorAll(`#${this.props.id}Cont div .header`);
+        let number = margin.toString().substring(0, 1);
+
+        headers[parseInt(this.lastClickedHeader)].animate({"backgroundColor": "rgba(0, 0, 0, 0)"}, 500).onfinish = () => {
+            headers[parseInt(this.lastClickedHeader)].style.backgroundColor = "rgba(0, 0, 0, 0)";
+            this.lastClickedHeader = number;
+        }
+
+        headers[parseInt(number)].animate({"backgroundColor": "rgba(0, 0, 0, 1)"}, 500).onfinish = () => {
+            headers[parseInt(number)].style.backgroundColor = "rgba(0, 0, 0, 1)";
+        }
     }
 
     romanLetters = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
