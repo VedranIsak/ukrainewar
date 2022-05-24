@@ -10,7 +10,7 @@ export default class VideoContainer extends Component {
     render() {
         return (
             <div className={styles.mainVideoContainer}>
-                <div className={styles.headerContainer}><h3>{this.props.header}</h3></div>
+                <div data-id="header-vid-cont" className={styles.headerContainer}><h3>{this.props.header}</h3></div>
                 <div id={this.props.id + "-vid-cont"} className={styles.contentContainer}>
                     <div>
                         <h4>{this.props.headers[0]}</h4>
@@ -31,7 +31,7 @@ export default class VideoContainer extends Component {
                         allowFullScreen></iframe>                    
                     </div>
                 </div>
-                <div className={styles.headerContainer}><h3>Watch footage from Vice News about the conflict</h3></div>
+                <div data-id="footer-vid-cont" className={styles.headerContainer}><h3>Watch footage from Vice News about the conflict</h3></div>
             </div>
         );
     }

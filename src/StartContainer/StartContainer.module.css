@@ -4,13 +4,16 @@
 }
 
 .mainContainer .topContainer {
-    height: 17.5%;
+    height: 22.5%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(0, 0, 255, 0.4);
+    background-image: url('../Images/banner1.jpg');
+    background-position: bottom;
+    background-size: 100% 500%;
+    border-bottom: 15px solid black;
 }
 
 .mainContainer .topContainer .textContainer {
@@ -24,35 +27,8 @@
     color: white;
 }
 
-.mainContainer .middleContainer {
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 4px 4px 4px black;
-    background: rgba(255, 255, 0, 0.1);
-}
-
-.mainContainer .middleContainer div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 40%;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.mainContainer .middleContainer div h3 {
-    color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;    
-}
-
 .mainContainer .bottomContainer {
-    height: 57.5%;
+    height: 70%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -74,11 +50,11 @@
     cursor: pointer;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 20%;
     border-radius: 75px;
-    height: 15%;
-    width: 50%;
-    background: rgba(0, 0, 0, 0.6);
+    height: 10%;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,42 +78,39 @@
 }
 
 .mainContainer .bottomContainer .imgContainer:first-of-type {
-    background-image: url('../Images/ukrainemap1.jpg');
-    background-size: 200% 100%;
+    background-image: url('../Images/histImages/ussr.jpg');
+    background-size: 180% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .mainContainer .bottomContainer .imgContainer:nth-of-type(2) {
-    background-image: url('../Images/test1.jpg');
-    background-size: 150% 100%;
-    background-position: right;
-    background-repeat: no-repeat;
+    background-image: url('../Images/histImages/russianSoldiers.webp');
+    background-position: center;
+    background-size: 200% 100%;
 }
 
 .mainContainer .bottomContainer .imgContainer:nth-of-type(3) {
-    background-image: url('../Images/protest1.jpg');
-    background-size: 140% 100%;
+    background-image: url('../Images/observer1.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .mainContainer .bottomContainer .imgContainer:nth-of-type(4) {
-    background-image: url('../Images/euromaidan1.jpg');
-    background-size: 150% 100%;
+    background-image: url('../Images/protest1.jpg');
+    background-size: 190% 100%;
+    background-position: right;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .mainContainer .bottomTextContainer {
-    height: 10%;
+    height: 7.5%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: black;
     color: white;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
     margin-top: 100%;
 }
 

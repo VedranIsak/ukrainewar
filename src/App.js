@@ -64,8 +64,8 @@ let oldHistTexts =
 
 let newHistHeaders = 
 [
-  'The Independence', 'The Orange Revolution', 'The Political Games', 
-  'The Euromaidan', 'The Crimean Annexation', 'The War in the Donbass'
+  '1991-2004', '2004', '2004-2013', 
+  '2013-2014', '2014', '2014-2022'
 ];
 
 let newHistIds = 
@@ -105,7 +105,7 @@ let newHistTexts =
   'secede from Ukraine and thus declared their own states in the Donbass, named the Donetsk Peoples Republic and the Luhansk Peoples Republic respectively. The war was intense in ' + 
   'the early months of the conlict, but soon cooled down following several peace agreements between Ukraine and Russia. However sporadic shelling and shooting  continued on the now static front ' + 
   'lines until the full scale Russian invasion in 2022. '
-]
+];
 
 let firstIndTexts = 
 [
@@ -123,6 +123,7 @@ let firstIndTexts =
   'Yulia Tymoschenko succeeded Viktor Yuschenko as the front figure of Ukraines western oriented politcal landscape, until she lost her seat ' + 
   'as the countrys prime minister to Viktor Yanukovych in the 2010 election.'
 ];
+
 let secondIndTexts = 
 [
   'Igor Girkin is a Russian paramilitary leader who is one of the primary local leaders of Russian forces in the Donbass.',
@@ -143,19 +144,16 @@ let secondIndTexts =
 let firstIndIds = ['yan', 'kuchma', 'yelt', 'putin', 'zel', 'tym'];
 let secondIndIds = ['girkin', 'yus', 'poros', 'obama', 'gorbatjov', 'krav'];
 
-let smallHeadersOld = ['I', 'II', 'III', 'IV', 'V', 'VI'];
-let smallHeadersNew = ['VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
-
 function App() {
   return (
     <React.Fragment>
       <StartContainer />
-      <SlideContainer id="oldHistId" ids={oldHistIds} smallHeaders={smallHeadersOld} headers={oldHistHeaders} texts={oldHistTexts}/>
-      <SlideContainer id="newHistId" ids={newHistIds} smallHeaders={smallHeadersNew} headers={newHistHeaders} texts={newHistTexts}/>
+      <SlideContainer id="oldHistId" ids={oldHistIds} headers={oldHistHeaders} texts={oldHistTexts}/>
+      <SlideContainer id="newHistId" ids={newHistIds} headers={newHistHeaders} texts={newHistTexts}/>
       <TitleBanner title="Meet the people at the heart of the conflict" />
       <IndividualsContainer texts={firstIndTexts} id="first-ind-cont" ids={firstIndIds} />
       <IndividualsContainer texts={secondIndTexts} id="second-ind-cont" ids={secondIndIds} />
-      <VideoContainer id="vice" header="Footage" headers={['Euromaidan', 'Crimea', 'Donbass']} />
+      <VideoContainer id="vice" header="Footage" headers={['Euromaidan', 'Donbass', 'Crimea']} />
     </React.Fragment>
   );
 }

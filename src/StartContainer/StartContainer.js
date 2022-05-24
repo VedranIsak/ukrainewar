@@ -8,7 +8,7 @@ export default class StartContainer extends Component {
         var imgDivs = document.querySelectorAll(".img-info-container")
         let topMargin = "0%";
         if(window.innerWidth > "1000") {
-            topMargin = "42.5%";
+            topMargin = "80%";
         }
         else {
             topMargin = "25%";
@@ -31,12 +31,7 @@ export default class StartContainer extends Component {
             <div id="top-header-container" className={styles.topContainer}>
                 <div className={styles.textContainer}>
                     <h2>The Russian-Ukrainian war</h2>
-                    <h3>The origins of the conflict</h3>
-                </div>
-            </div>
-            <div id="middle-header-container" className={styles.middleContainer}>
-                <div>
-                    <h3>Your guide to understanding the war</h3>
+                    <h3>How war returned to Europe</h3>
                 </div>
             </div>
             <div id="img-dir-container" className={styles.bottomContainer}>
@@ -63,7 +58,7 @@ export default class StartContainer extends Component {
             </div>
             <div id="top-footer-container" className={styles.bottomTextContainer}>
                 <div>
-                    <h3>All relevant information, in one place</h3>
+                    <h3>Get an overview of the struggle defining the new world order</h3>
                 </div>
             </div>
         </div>
