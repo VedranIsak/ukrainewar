@@ -17,9 +17,11 @@ export default class StartContainer extends Component {
         else {
             topMargin = "25%";
         }
-
-        topHeader.animate({'left': '30%'}, 1000).onfinish = () => {
-            topHeader.style.left = '30%';
+        
+        if(window.innerWidth > 1000) {
+            topHeader.animate({'left': '30%'}, 1000).onfinish = () => {
+                topHeader.style.left = '30%';
+            }   
         }
 
         for(let i = 0; i < imgDivs.length; i++) 

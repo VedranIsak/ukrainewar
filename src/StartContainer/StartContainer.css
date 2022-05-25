@@ -2,6 +2,7 @@
     #top-header-container div {
         background: none;
         width: 100%;
+        left: 0%;
     }
 
     #img-dir-container {
