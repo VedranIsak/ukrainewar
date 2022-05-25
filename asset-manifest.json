@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ukrainewar/static/css/main.f95380b0.css",
-    "main.js": "/ukrainewar/static/js/main.b58001ab.js",
+    "main.css": "/ukrainewar/static/css/main.be9bed71.css",
+    "main.js": "/ukrainewar/static/js/main.59c655c3.js",
     "static/js/787.450f4b08.chunk.js": "/ukrainewar/static/js/787.450f4b08.chunk.js",
     "static/media/tymoschenko.jpg": "/ukrainewar/static/media/tymoschenko.f1f288341e1aba99e997.jpg",
     "static/media/euromaidan.jpg": "/ukrainewar/static/media/euromaidan.0815dc597325bc049a9c.jpg",
@@ -33,12 +33,12 @@
     "static/media/obama.jpg": "/ukrainewar/static/media/obama.ededf344b3eada215673.jpg",
     "static/media/kievanRus.png": "/ukrainewar/static/media/kievanRus.af4aad7127052f01d671.png",
     "index.html": "/ukrainewar/index.html",
-    "main.f95380b0.css.map": "/ukrainewar/static/css/main.f95380b0.css.map",
-    "main.b58001ab.js.map": "/ukrainewar/static/js/main.b58001ab.js.map",
+    "main.be9bed71.css.map": "/ukrainewar/static/css/main.be9bed71.css.map",
+    "main.59c655c3.js.map": "/ukrainewar/static/js/main.59c655c3.js.map",
     "787.450f4b08.chunk.js.map": "/ukrainewar/static/js/787.450f4b08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f95380b0.css",
-    "static/js/main.b58001ab.js"
+    "static/css/main.be9bed71.css",
+    "static/js/main.59c655c3.js"
   ]
 }
