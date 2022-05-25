@@ -22,6 +22,11 @@ let oldHistIds =
   'ussr'
 ];
 
+let oldHistTimes = [
+  '880 - 250', '1250', '1300 - 1650', 
+  '1650 - 1917', '1917 - 1921', '1921 - 1991'
+]
+
 let oldHistTexts = 
 [
   'The Kievan Rus was the first state formed by the Eastern Slavs, seeing its beginning in the 9th century and lasting until the 13th century. ' +
@@ -64,9 +69,15 @@ let oldHistTexts =
 
 let newHistHeaders = 
 [
-  '1991-2004', '2004', '2004-2013', 
-  '2013-2014', '2014', '2014-2022'
+  'The Independence', 'The Orange Revolution', 'The Political Games', 
+  'The Euromaidan', 'The Crimea Crisis', 'The War In The Donbass'
 ];
+
+let newHistTimes = 
+[
+  '1991 - 2004', '2004', '2004 - 2013', 
+  '2013 - 2014', '2014', '2014 - 2022'
+]
 
 let newHistIds = 
 [
@@ -148,8 +159,8 @@ function App() {
   return (
     <React.Fragment>
       <StartContainer />
-      <SlideContainer id="oldHistId" ids={oldHistIds} headers={oldHistHeaders} texts={oldHistTexts}/>
-      <SlideContainer id="newHistId" ids={newHistIds} headers={newHistHeaders} texts={newHistTexts}/>
+      <SlideContainer id="oldHistId" ids={oldHistIds} headers={oldHistHeaders} texts={oldHistTexts} times={oldHistTimes}/>
+      <SlideContainer id="newHistId" ids={newHistIds} headers={newHistHeaders} texts={newHistTexts} times={newHistTimes}/>
       <TitleBanner title="Meet the people at the heart of the conflict" />
       <IndividualsContainer texts={firstIndTexts} id="first-ind-cont" ids={firstIndIds} />
       <IndividualsContainer texts={secondIndTexts} id="second-ind-cont" ids={secondIndIds} />

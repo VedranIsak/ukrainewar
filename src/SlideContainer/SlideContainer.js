@@ -118,12 +118,12 @@ export default class SlideContainer extends Component {
                             <h5 className='header' onClick={() => { this.switchSlide("500"); }}>{this.props.headers[5]}</h5>
                         </div>
                         <div data-id="time-line" className={styles.timeLineContainer}>
-                            <div><h5>880 - 1250</h5></div>
-                            <div><h5>1250</h5></div>
-                            <div><h5>1300 - 1650</h5></div>
-                            <div><h5>1650 - 1917</h5></div>
-                            <div><h5>1917 - 1921</h5></div>
-                            <div><h5>1921 - 1991</h5></div>
+                            <div><h5>{this.props.times[0]}</h5></div>
+                            <div><h5>{this.props.times[1]}</h5></div>
+                            <div><h5>{this.props.times[2]}</h5></div>
+                            <div><h5>{this.props.times[3]}</h5></div>
+                            <div><h5>{this.props.times[4]}</h5></div>
+                            <div><h5>{this.props.times[5]}</h5></div>
                         </div>
                     </div>
                     <div onClick={() => { this.incrementSlide("100"); }} data-id="arrow-container" className={styles.left}></div>

@@ -1,15 +1,13 @@
 .mainContainer {
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .mainContainer .topContainer {
+    position: relative;
     height: 22.5%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-image: url('../Images/banner1.jpg');
     background-position: bottom;
     background-size: 100% 500%;
@@ -17,11 +15,13 @@
 }
 
 .mainContainer .topContainer .textContainer {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
+    left: 140%;
     height: 100%;
     background: rgba(0, 0, 0, .5);
     color: white;

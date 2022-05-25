@@ -5,8 +5,12 @@ import { Component } from 'react'
 export default class StartContainer extends Component {
     
     componentDidMount() {
-        var imgDivs = document.querySelectorAll(".img-info-container")
+        var imgDivs = document.querySelectorAll(".img-info-container");
+        var topHeader = document.querySelector("#top-header-container div");
+
         let topMargin = "0%";
+        let bottomMargin = "0%";
+
         if(window.innerWidth > "1000") {
             topMargin = "80%";
         }
@@ -14,8 +18,12 @@ export default class StartContainer extends Component {
             topMargin = "25%";
         }
 
+        topHeader.animate({'left': '30%'}, 1000).onfinish = () => {
+            topHeader.style.left = '30%';
+        }
+
         for(let i = 0; i < imgDivs.length; i++) 
-            imgDivs[i].animate({ top: topMargin }, { duration: 1500 }).onfinish = () => { imgDivs[i].style.top = topMargin };
+            imgDivs[i].animate({ top: topMargin }, { duration: 1250 }).onfinish = () => { imgDivs[i].style.top = topMargin };
             
         const footer = document.getElementById("top-footer-container");
         footer.animate({'marginTop': '0%'}, {duration: 1500}).onfinish = () => { footer.style.marginTop = '0%' };
