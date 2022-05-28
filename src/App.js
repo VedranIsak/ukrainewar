@@ -5,6 +5,8 @@ import SlideContainer from './SlideContainer/SlideContainer';
 import TitleBanner from './TitleBanner/TitleBanner';
 import IndividualsContainer from './IndividualsContainer/IndividualsContainer';
 import VideoContainer from './VideoContainer/VideoContainer';
+import SourcesContainer from './SourcesContainer/SourcesContainer';
+import SlideShowContainer from './SlideShowContainer/SlideShowContainer';
 
 let oldHistHeaders = 
 [
@@ -165,6 +167,8 @@ function App() {
       <IndividualsContainer texts={firstIndTexts} id="first-ind-cont" ids={firstIndIds} />
       <IndividualsContainer texts={secondIndTexts} id="second-ind-cont" ids={secondIndIds} />
       <VideoContainer id="vice" header="Footage" headers={['Euromaidan', 'Donbass', 'Crimea']} />
+      <SlideShowContainer />
+      <SourcesContainer />
     </React.Fragment>
   );
 }

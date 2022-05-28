@@ -1,0 +1,49 @@
+.mainContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../Images/banner1.jpg');
+    background-size: 100% 350%;
+    background-position: top;
+}
+
+.mainContainer div {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer div h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+
+.mainContainer ul {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    background: black;
+    box-shadow: 3px 3px 6px;
+}
+
+.mainContainer ul li {
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 80%;
+    border-radius: 6px;
+}
+
+.mainContainer ul li h4 {
+    text-align: left;
+    padding: 1%;
+    color: white;
+}

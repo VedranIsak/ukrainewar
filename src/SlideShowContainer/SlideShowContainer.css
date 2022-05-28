@@ -1,0 +1,36 @@
+#first-img-slide {
+    z-index: 9;
+    background: yellow;
+    background-image: url('../Images/slideImages/donbass.jpg');
+    background-size: 100% 140%;
+}
+
+#second-img-slide {
+    z-index: 8;
+    background-image: url('../Images/slideImages/crimea.jpg');
+    background-size: 100% 145%;
+}
+
+#third-img-slide {
+    z-index: 7;
+    background-image: url('../Images/slideImages/hostomel.jpg');
+    background-size: 100% 130%;
+}
+
+#fourth-img-slide {
+    z-index: 6;
+    background-image: url('../Images/slideImages/mariupol.jpg');
+    background-size: 100% 140%;
+}
+
+#fifth-img-slide {
+    z-index: 5;
+    background-image: url('../Images/slideImages/azovstal.jpg');
+    background-size: 100% 140%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #slide-show-main-container {
+        display: none;
+    }
+}

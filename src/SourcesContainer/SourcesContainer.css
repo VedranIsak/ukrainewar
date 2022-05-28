@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    #sources-main-container {
+        height: 125vh;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #sources-list {
+        width: 100%;
+    }
+
+    #sources-list li {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (min-height: 200px) and (max-height: 550px) and (min-width: 400px) and (max-width: 1100px) {
+    #sources-main-container {
+        height: 200vh;
+    }
+}

@@ -103,19 +103,33 @@
         background-size: 200% 400%;
     }
 
+    div[data-id="text-container"] {
+        align-items: center;
+    } 
+
+    div[data-id="text-container"] h4 {
+        background: none;
+        box-shadow: none;
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
     div[data-id="time-line"] {
         display: none;
     }
-}
 
-@media only screen and (max-width: 700px) {
-    p[data-text] {
-        width: 90%;
-        padding: 0%;
-        box-shadow: 3px 3px 6px black;
+    div[data-id="imgPosContainer"] {
+        display: none;
+    }
+
+    [data-id="arrow-container"] {
+        display: inline-block;
+    }
+
+    [data-id="imgSlideContainer"] {
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -128,20 +142,7 @@
         border-bottom: 1px solid silver;
     }
 
-    [data-id="imgPosContainer"] {
-        display: none;
-    }
-
-    [data-id="imgSlideContainer"] {
-        height: 100%;
-        width: 100%;
-    }
-
-    [data-id="arrow-container"] {
-        display: inline-block;
-    }
-
-    p[data-text] {
+    h4[data-text] {
         height: auto;
         width: 75%;
         box-shadow: none;
@@ -150,45 +151,54 @@
 }
 
 @media only screen and (max-width: 450px) {
-    p[data-text] {
+    h4[data-text] {
         line-height: 25px;
     }
 }
 
 @media only screen and (max-width: 400px) { 
-    p[data-text] {
+    h4[data-text] {
         line-height: 22.5px;
         font-size: .9rem;
     }
 }
 
 @media only screen and (max-width: 300px) {
-    p[data-text] {
-        font-size: 0.7rem;
+    h4[data-text] {
+        font-size: 0.85rem;
         line-height: 20px;
     } 
 }
 
 @media only screen and (min-height: 200px) and (max-height: 450px) and (min-width: 550px) and (max-width: 750px) {
-    p[data-text] {
+    h4[data-text] {
         line-height: 22.5px;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         box-shadow: none;
     } 
 }
 
 @media only screen and (min-height: 200px) and (max-height: 550px) and (min-width: 400px) and (max-width: 1100px) {
-    p[data-text] {
+    h4[data-text] {
         line-height: 25px;
         width: 90%;
         box-shadow: none;
     } 
 
     #oldHistIdCont, #newHistIdCont {
+        height: 125vh;
         border: none;
     }
 
     [data-id="imgPosContainer"] {
         display: none;
+    }
+
+    [data-id="imgSlideContainer"] {
+        height: 100%;
+    }
+ 
+    [data-id="arrow-container"] {
+        display: inline-block;
     }
 }

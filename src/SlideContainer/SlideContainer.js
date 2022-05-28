@@ -7,11 +7,22 @@ export default class SlideContainer extends Component {
         super(props);
     }
 
+    timeCount = 0;
     lastClickedHeader = 0;
 
     switchSlide(margin) {
+        if(this.lastClickedHeader != 0) { return; } 
+
         this.slide = document.getElementById(this.props.id);
         this.slide.animate({ 'marginLeft': `-${margin}%`}, 500).onfinish = () => { this.slide.style.marginLeft = `-${margin}%` };
+
+        var clickInterval = setInterval(() => {
+            this.lastClickedHeader++;
+            if(this.lastClickedHeader == 10) {
+                clearInterval(clickInterval);
+                this.lastClickedHeader = 0;
+            }
+        }, 100)
 
         if(window.innerWidth < 600)
             this.highlight(margin);
@@ -23,7 +34,7 @@ export default class SlideContainer extends Component {
         let limit = parseInt(orgLimit) + 1;
 
         const imgSlideContainers = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div`);
-        const imgSlideHeaders = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div h5`);
+        const imgSlideHeaders = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div h4`);
 
         for (let i = 0; i < imgSlideContainers.length; i++) {
             imgSlideContainers[i].style.background = "none";
@@ -69,11 +80,9 @@ export default class SlideContainer extends Component {
         }
     }
 
-    romanLetters = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
-
     componentDidMount() {
         const imgSlideContainers = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div`);
-        const imgSlideHeaders = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div h5`);
+        const imgSlideHeaders = document.querySelectorAll(`#${this.props.id}Cont [data-id="imgPosContainer"] [data-id="time-line"] div h4`);
         imgSlideContainers[0].style.background = "rgba(255, 255, 255, 0.45)";
         imgSlideHeaders[0].style.opacity = "1";
     }
@@ -110,54 +119,55 @@ export default class SlideContainer extends Component {
                 <div id={this.props.id + "Cont"} className={styles.mainContainer}>
                     <div data-id="imgPosContainer" className={styles.imgPosContainer}>
                         <div className={styles.headerContainer}>
-                            <h5 className='header' onClick={() => { this.switchSlide("0"); }}>{this.props.headers[0]}</h5>
-                            <h5 className='header' onClick={() => { this.switchSlide("100"); }}>{this.props.headers[1]}</h5>
-                            <h5 className='header' onClick={() => { this.switchSlide("200"); }}>{this.props.headers[2]}</h5>
-                            <h5 className='header' onClick={() => { this.switchSlide("300"); }}>{this.props.headers[3]}</h5>
-                            <h5 className='header' onClick={() => { this.switchSlide("400"); }}>{this.props.headers[4]}</h5>
-                            <h5 className='header' onClick={() => { this.switchSlide("500"); }}>{this.props.headers[5]}</h5>
+                            <h3 className='header' onClick={() => { this.switchSlide("0"); }}>{this.props.headers[0]}</h3>
+                            <h3 className='header' onClick={() => { this.switchSlide("100"); }}>{this.props.headers[1]}</h3>
+                            <h3 className='header' onClick={() => { this.switchSlide("200"); }}>{this.props.headers[2]}</h3>
+                            <h3 className='header' onClick={() => { this.switchSlide("300"); }}>{this.props.headers[3]}</h3>
+                            <h3 className='header' onClick={() => { this.switchSlide("400"); }}>{this.props.headers[4]}</h3>
+                            <h3 className='header' onClick={() => { this.switchSlide("500"); }}>{this.props.headers[5]}</h3>
                         </div>
                         <div data-id="time-line" className={styles.timeLineContainer}>
-                            <div><h5>{this.props.times[0]}</h5></div>
-                            <div><h5>{this.props.times[1]}</h5></div>
-                            <div><h5>{this.props.times[2]}</h5></div>
-                            <div><h5>{this.props.times[3]}</h5></div>
-                            <div><h5>{this.props.times[4]}</h5></div>
-                            <div><h5>{this.props.times[5]}</h5></div>
+                            <div><h4>{this.props.times[0]}</h4></div>
+                            <div><h4>{this.props.times[1]}</h4></div>
+                            <div><h4>{this.props.times[2]}</h4></div>
+                            <div><h4>{this.props.times[3]}</h4></div>
+                            <div><h4>{this.props.times[4]}</h4></div>
+                            <div><h4>{this.props.times[5]}</h4></div>
                         </div>
                     </div>
+                    <i className='fas fa-angle-double-left left-arrow'></i>
                     <div onClick={() => { this.incrementSlide("100"); }} data-id="arrow-container" className={styles.left}></div>
                     <div onClick={() => { this.incrementSlide("-100") }} data-id="arrow-container" className={styles.right}></div>
                     <div data-id="imgSlideContainer" className={styles.imgSlideContainer}>
                         <div id={this.props.id} data-curr-margin="0" className={styles.slideContainer}>
                             <div id={this.props.ids[0]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[0]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[0]}</h4>
                                 </div>
                             </div>
                             <div id={this.props.ids[1]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[1]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[1]}</h4>
                                 </div>
                             </div>
                             <div id={this.props.ids[2]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[2]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[2]}</h4>
                                 </div>
                             </div>
                             <div id={this.props.ids[3]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[3]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[3]}</h4>
                                 </div>
                             </div>
                             <div id={this.props.ids[4]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[4]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[4]}</h4>
                                 </div>
                             </div>
                             <div id={this.props.ids[5]}>
-                                <div className={styles.textContainer}>
-                                    <p data-text>{this.props.texts[5]}</p>
+                                <div data-id="text-container" className={styles.textContainer}>
+                                    <h4 data-text>{this.props.texts[5]}</h4>
                                 </div>
                             </div>
                         </div>

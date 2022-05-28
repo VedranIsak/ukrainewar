@@ -19,6 +19,12 @@
         background-image: url('../Images/banner1.jpg');
     }
 
+    #img-dir-container div div {
+        height: 80%;
+        width: 70%;
+        left: 15%;
+    }
+
     #his-img-container {
         background: none;
     }
