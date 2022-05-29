@@ -163,7 +163,16 @@
     #putin-cont p , #zel-cont p, #tym-cont p,
     #girkin-cont p, #yus-cont p, #poros-cont p,
     #obama-cont p, #gorbatjov-cont p, #krav-cont p {
-        font-size: 0.8rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    #yan-cont p, #kuchma-cont p, #yelt-cont p,
+    #putin-cont p , #zel-cont p, #tym-cont p,
+    #girkin-cont p, #yus-cont p, #poros-cont p,
+    #obama-cont p, #gorbatjov-cont p, #krav-cont p {
+        font-size: .9rem;
     }
 }
 

@@ -52,21 +52,21 @@ let oldHistTexts =
   'aid, under the condition that they became subject to him. In 1795, after several gruesome wars between the Poles and their western Ukrainian allies and the eastern ' + 
   'Ukranian Cossacks and their Russian allies, Ukraine was ultimately conquered by the Russians. The last part of western Ukraine, Galicia, was incorporated into the ' +
   'Austrian empire.',
-  'Ukraine would be in the coming hundred years subject to an effort of Russification by the Russian state. Russian language was heavily promoted while ethnic Russian ' + 
-  'settlers moved in. This would change after the first world war however, when Ukraine was given up by the now newly formed Soviet Russia to the Central Powers led by ' + 
-  'Germany and Austria-Hungary. This would barely last for a year however, as the Central Powers were defeated in the first world war and subsequently lost the small influence they had ' +
-  'in Ukraine. What followed next was the Russian civil war, where the two main belligerents were the communist Reds and the monarchist Whites. ' + 
-  'While the Germans repelled the Reds from Ukraine at the start of the conflict, they quickly lost influence in Ukraine as both the Whites, Reds and the local anarchist Black Army ' + 
-  'battled for influence. The Blacks managed to achieve surprising success and took control of large parts of southern Ukraine and Crimea. This would not however last as the Reds, after ' + 
+  'Ukraine would be in the coming hundred years subject to Russification by the Russian state. Russian language was heavily promoted while ethnic Russian ' + 
+  'moved in. This would change after the first world war however, when Ukraine was given up by the now newly formed Soviet Russia to the Central Powers. ' + 
+  'This would barely last for a year however, as the Central Powers were defeated in the first world war and subsequently lost ' +
+  'Ukraine. What followed next was the Russian civil war, where the two main belligerents were the communist Reds and the monarchist Whites. ' + 
+  'Both the Whites and the Reds aswell as the the local anarchist Black Army would proceed to ' + 
+  'battle for control of Ukraine. The Blacks managed to achieve surprising success and took control of large parts of southern Ukraine and Crimea. This would not however last as the Reds, after ' + 
   'rallying their core support in the heartland of Russia, managed to not only conquer Ukraine but also most of the former Russian Empire.',
-  'While the Soviets had managed to reintegrate Ukraine into the USSR, they did not manage to reintegrate the western most parts of the country, which were under the control of Poland, ' + 
-  'despite the Soviets waging a war of conquest against the Poles between 1919 and 1921. In the following years, as Stalin took a firm grip of the Union, what is now modern day Ukraine and ' + 
-  'also other parts of the USSR (most notably Kazakhstan) were subject to the horrors of collectivisation of agriculture. In what many scholars label as ' + 
+  'While the Soviets had managed to reintegrate Ukraine into the USSR in 1921, the western parts were awarded to Poland following World War One.' + 
+  'In the following years, as Stalin took a firm grip of the Union, Ukraine, along with ' + 
+  'other parts of the USSR (most notably Kazakhstan) were subject to the horrors of collectivisation of agriculture. In what many scholars label as ' + 
   'the Holodomor genocide, roughly 5 million people in Ukraine, mostly ethnic Ukranians, starved to death between 1932 to 1933. Following the Holodomor Ukraine ' + 
-  'would experience being invaded by Nazi Germany in 1941 with millions more dying. In the western parts of Ukraine a nationalist anti communist grouping led by ' + 
-  'Stepan Bandera fought both the Germans and the Soviets for independence. However they did from time to time collude with the occupying Germans, mainly in the killing and targeting of Polish ' + 
-  ', Jewish and Russian civilians in western Ukraine. They would ultimately be defeated, but only in the 1950s, well after the Second World War had ended. What followed after the war was the reintegration ' + 
-  'of its western territories and relative peace, albeit still under efforts by the Soviets to achieve russification.'
+  'would be invaded by Germany in 1941 with millions more dying. In the western parts of Ukraine a nationalist anti communist movement led by ' + 
+  'Stepan Bandera fought both the Germans and the Soviets for independence, while from time to time colluding Germans, mainly in the killing and targeting of Polish ' + 
+  ', Jewish and Russian civilians. This nationalist movement would ultimately be defeated, but only in the 1950s. What followed after the war was the reintegration ' + 
+  'of the western territories into Ukraine and relative peace.'
 ]
 
 let newHistHeaders = 

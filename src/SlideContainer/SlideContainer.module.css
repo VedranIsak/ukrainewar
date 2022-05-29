@@ -80,36 +80,32 @@
 
 .right {
     position: absolute;
-    right: 5%;
-    top: 10%;
-}
-
-.right {
-    position: absolute;
-    right: 3%;
-    top: 50%;
-    border: solid rgb(245, 222, 179);
+    right: 15%;
+    top: 5%;
+    border: solid rgba(255, 255, 255, 1);
     border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: 10px;
+    padding: 17.5px;
     transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   z-index: 10;
   display: none;
+  border-radius: 3px;
 }
 
 .left {
     position: absolute;
-    left: 3%;
-    top: 50%;
-    border: solid wheat;
+    left: 15%;
+    top: 5%;
+    border: solid rgba(255, 255, 255, 1);
     border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: 10px;
+    padding: 17.5px;
     transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   z-index: 10;
   display: none;
+  border-radius: 3px;
 }
 
 .imgSlideContainer {

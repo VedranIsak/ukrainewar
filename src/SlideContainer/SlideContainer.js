@@ -108,8 +108,8 @@ export default class SlideContainer extends Component {
         let index = 0;
         isRightArrow ? index = 1 : index = 0;
 
-        arrows[index].animate({"borderColor": "rgb(100, 100, 100)"}, 550).onfinish = () => {
-            arrows[index].animate({"borderColor": "rgb(245, 222, 179)"}, 550);
+        arrows[index].animate({"borderColor": "rgba(255, 255, 255, 0.5)"}, 550).onfinish = () => {
+            arrows[index].animate({"borderColor": "rgba(255, 255, 255, 1)"}, 550);
         }
     }
 
@@ -135,7 +135,6 @@ export default class SlideContainer extends Component {
                             <div><h4>{this.props.times[5]}</h4></div>
                         </div>
                     </div>
-                    <i className='fas fa-angle-double-left left-arrow'></i>
                     <div onClick={() => { this.incrementSlide("100"); }} data-id="arrow-container" className={styles.left}></div>
                     <div onClick={() => { this.incrementSlide("-100") }} data-id="arrow-container" className={styles.right}></div>
                     <div data-id="imgSlideContainer" className={styles.imgSlideContainer}>

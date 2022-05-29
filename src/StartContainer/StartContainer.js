@@ -13,7 +13,7 @@ export default class StartContainer extends Component {
             topMargin = "80%";
         }
         else {
-            topMargin = "10%";
+            topMargin = "27.5%";
         }
         
         if(window.innerWidth > 1000) {
