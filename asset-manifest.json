@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/ukrainewar/static/css/main.be9bed71.css",
-    "main.js": "/ukrainewar/static/js/main.59c655c3.js",
+    "main.css": "/ukrainewar/static/css/main.6301952c.css",
+    "main.js": "/ukrainewar/static/js/main.6db6c4c4.js",
     "static/js/787.450f4b08.chunk.js": "/ukrainewar/static/js/787.450f4b08.chunk.js",
+    "static/media/mariupol.jpg": "/ukrainewar/static/media/mariupol.211df57304e4569eef41.jpg",
     "static/media/tymoschenko.jpg": "/ukrainewar/static/media/tymoschenko.f1f288341e1aba99e997.jpg",
     "static/media/euromaidan.jpg": "/ukrainewar/static/media/euromaidan.0815dc597325bc049a9c.jpg",
     "static/media/gorbatjov.jpg": "/ukrainewar/static/media/gorbatjov.9bcc7c0eb8d67c08a15e.jpg",
     "static/media/girkin.jpg": "/ukrainewar/static/media/girkin.ceedbf57818e1ab7ca4d.jpg",
+    "static/media/crimea.jpg": "/ukrainewar/static/media/crimea.387aeb6f965d4ed66deb.jpg",
     "static/media/ussr.jpg": "/ukrainewar/static/media/ussr.8e80af1097deb35a7896.jpg",
     "static/media/protest2.jpg": "/ukrainewar/static/media/protest2.370e7b2dcf7aa059d6dc.jpg",
     "static/media/vikYan.jpg": "/ukrainewar/static/media/vikYan.36098d835a21a3a2cce8.jpg",
@@ -15,13 +17,14 @@
     "static/media/polish.jpg": "/ukrainewar/static/media/polish.f1a0225dc2253746bfdf.jpg",
     "static/media/poroshenko.jpg": "/ukrainewar/static/media/poroshenko.7ebcd04b6bbb6e671575.jpg",
     "static/media/zelensky.jpg": "/ukrainewar/static/media/zelensky.8e6ebf1adf4fdc0a29a9.jpg",
+    "static/media/donbass.jpg": "/ukrainewar/static/media/donbass.87be50455914ffb3af99.jpg",
     "static/media/banner1.jpg": "/ukrainewar/static/media/banner1.5137e54a105bbac4e1ca.jpg",
     "static/media/protest1.jpg": "/ukrainewar/static/media/protest1.c8b26065f02008f10261.jpg",
     "static/media/yanukovych.jpg": "/ukrainewar/static/media/yanukovych.1a353f9695303ccb6c02.jpg",
     "static/media/orangeRev.jpg": "/ukrainewar/static/media/orangeRev.ca67579ac7c7460541e3.jpg",
     "static/media/mongols.jpg": "/ukrainewar/static/media/mongols.e05e5464ba926f138a22.jpg",
     "static/media/yeltsin.jpg": "/ukrainewar/static/media/yeltsin.cb65afe8387de80f0804.jpg",
-    "static/media/donbass.jpg": "/ukrainewar/static/media/donbass.87be50455914ffb3af99.jpg",
+    "static/media/azovstal.jpg": "/ukrainewar/static/media/azovstal.0783b6c56ad12a95a5fe.jpg",
     "static/media/putin.jpg": "/ukrainewar/static/media/putin.47cd47957561dc62035f.jpg",
     "static/media/imperialRussia.jpg": "/ukrainewar/static/media/imperialRussia.6785ce327d6eaf9f2fbe.jpg",
     "static/media/civilWar.jpg": "/ukrainewar/static/media/civilWar.7d3f453dbf0f9ba043d1.jpg",
@@ -33,12 +36,12 @@
     "static/media/obama.jpg": "/ukrainewar/static/media/obama.ededf344b3eada215673.jpg",
     "static/media/kievanRus.png": "/ukrainewar/static/media/kievanRus.af4aad7127052f01d671.png",
     "index.html": "/ukrainewar/index.html",
-    "main.be9bed71.css.map": "/ukrainewar/static/css/main.be9bed71.css.map",
-    "main.59c655c3.js.map": "/ukrainewar/static/js/main.59c655c3.js.map",
+    "main.6301952c.css.map": "/ukrainewar/static/css/main.6301952c.css.map",
+    "main.6db6c4c4.js.map": "/ukrainewar/static/js/main.6db6c4c4.js.map",
     "787.450f4b08.chunk.js.map": "/ukrainewar/static/js/787.450f4b08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be9bed71.css",
-    "static/js/main.59c655c3.js"
+    "static/css/main.6301952c.css",
+    "static/js/main.6db6c4c4.js"
   ]
 }
