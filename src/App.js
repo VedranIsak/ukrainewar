@@ -32,11 +32,10 @@ let oldHistTimes = [
 let oldHistTexts = 
 [
   'The Kievan Rus was the first state formed by the Eastern Slavs, seeing its beginning in the 9th century and lasting until the 13th century. ' +
-  'Although popular myth says that the state was founded by Nordic vikings, it is infact commonly viewed today that the Kievan Rus ' +
-  'was founded by Slavs with a Nordic background, the so called Varangians. The Kievan Rus, as a state, was more of a federation than an unified empire  ' + 
-  'and in its peak it covered most of modern day Ukraine, Belarus as well as a large part of the western edge of todays Russia. ' +
+  'The state was founded by Slavs with a Nordic background a people nowadays labeled as Varangians. As a state, the Kievan Rus functioned as a federation ' + 
+  'and in its peak it covered most of modern day Ukraine, Belarus as well as a large part of the western edge of Russia. ' +
   'Such significance holds the Kievan Rus state in todays world that no less than three countries, Ukraine, Belarus and Russia, draw their origin from it. ' +
-  'The latter two have even adopted their names from it. Besides serving as the first state of the eastern Slavs, the Kievan Rus also holds a significant role ' +
+  'Besides serving as the first state of the eastern Slavs, the Kievan Rus also holds a significant role ' +
   'in the history of the region as a whole due to it spreading Orthodox Christiany (via the Byzantine empire) through its lands, via its Capital of Kiev. ' +
   'Orthodox Christianity is a religion that most eastern Slavs still adhere to to this day. ',
   'In the 13th century the Kievan Rus seized to exist as a state with the invasion of the Mongols. The Mongols first defetead several principalities of the ' +
@@ -52,20 +51,19 @@ let oldHistTexts =
   'aid, under the condition that they became subject to him. In 1795, after several gruesome wars between the Poles and their western Ukrainian allies and the eastern ' + 
   'Ukranian Cossacks and their Russian allies, Ukraine was ultimately conquered by the Russians. The last part of western Ukraine, Galicia, was incorporated into the ' +
   'Austrian empire.',
-  'Ukraine would be in the coming hundred years subject to Russification by the Russian state. Russian language was heavily promoted while ethnic Russian ' + 
-  'moved in. This would change after the first world war however, when Ukraine was given up by the now newly formed Soviet Russia to the Central Powers. ' + 
-  'This would barely last for a year however, as the Central Powers were defeated in the first world war and subsequently lost ' +
+  'Ukraine would be in the coming years subject to Russification, where the Russian language was heavily promoted and ethnic Russian settlers ' + 
+  'moved in. This would change after World War I however, when Ukraine was given up by the now newly formed Soviet Russia to the Central Powers. ' + 
+  'This barely lasted for a year however, as the Central Powers were defeated in World War I and thus lost ' +
   'Ukraine. What followed next was the Russian civil war, where the two main belligerents were the communist Reds and the monarchist Whites. ' + 
   'Both the Whites and the Reds aswell as the the local anarchist Black Army would proceed to ' + 
-  'battle for control of Ukraine. The Blacks managed to achieve surprising success and took control of large parts of southern Ukraine and Crimea. This would not however last as the Reds, after ' + 
-  'rallying their core support in the heartland of Russia, managed to not only conquer Ukraine but also most of the former Russian Empire.',
-  'While the Soviets had managed to reintegrate Ukraine into the USSR in 1921, the western parts were awarded to Poland following World War One.' + 
-  'In the following years, as Stalin took a firm grip of the Union, Ukraine, along with ' + 
-  'other parts of the USSR (most notably Kazakhstan) were subject to the horrors of collectivisation of agriculture. In what many scholars label as ' + 
-  'the Holodomor genocide, roughly 5 million people in Ukraine, mostly ethnic Ukranians, starved to death between 1932 to 1933. Following the Holodomor Ukraine ' + 
+  'battle for control of Ukraine. The Blacks managed to achieve surprising success and took control of large parts of Ukraine. ' + 
+  'This would not last however as ultimately the Reds managed to not only conquer Ukraine but also virtually all of the former Russian Empire.',
+  'While the Soviets had managed to reintegrate Ukraine into the USSR in 1921, the western parts were awarded to Poland following World War I. ' + 
+  'In the coming years, as Stalin took power, Ukraine was the subject to the horrors of collectivisation of agriculture. In what many label as ' + 
+  'the Holodomor genocide, roughly 5 million people in Ukraine starved to death between 1932 to 1933. Following the Holodomor Ukraine ' + 
   'would be invaded by Germany in 1941 with millions more dying. In the western parts of Ukraine a nationalist anti communist movement led by ' + 
-  'Stepan Bandera fought both the Germans and the Soviets for independence, while from time to time colluding Germans, mainly in the killing and targeting of Polish ' + 
-  ', Jewish and Russian civilians. This nationalist movement would ultimately be defeated, but only in the 1950s. What followed after the war was the reintegration ' + 
+  'Stepan Bandera fought both the Germans and the Soviets, while from time to time colluding with the Germans and comitting atrocities against minorities. ' + 
+  'The Bandera movement would be defeated, but only in the 1950s. What followed after the war was the reintegration ' + 
   'of the western territories into Ukraine and relative peace.'
 ]
 
