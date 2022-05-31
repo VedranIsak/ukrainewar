@@ -33,7 +33,7 @@ let oldHistTexts =
 [
   'The Kievan Rus was the first state formed by the Eastern Slavs, seeing its beginning in the 9th century and lasting until the 13th century. ' +
   'Although popular myth says that the state was founded by Nordic vikings, it is infact commonly viewed today that the Kievan Rus ' +
-  'was founded by Slavs with a Nordic background, the so called Varangians. The Kievan Rus, as a state, was more of a federation than a unified empire  ' + 
+  'was founded by Slavs with a Nordic background, the so called Varangians. The Kievan Rus, as a state, was more of a federation than an unified empire  ' + 
   'and in its peak it covered most of modern day Ukraine, Belarus as well as a large part of the western edge of todays Russia. ' +
   'Such significance holds the Kievan Rus state in todays world that no less than three countries, Ukraine, Belarus and Russia, draw their origin from it. ' +
   'The latter two have even adopted their names from it. Besides serving as the first state of the eastern Slavs, the Kievan Rus also holds a significant role ' +
@@ -43,11 +43,11 @@ let oldHistTexts =
   'Kievan Rus in the battle of the Kalka River in the year of 1223. Following this battle the Mongols retreated but they came back 14 years later and ' + 
   'launched a full scale invasion. This invasion resulted in virtually all of the Kievan Rus, apart from Novgorod and Pskov in the north, being conquered. ',
   'After the brief formation of a new kingdom following the Mongol invasion, called Ruthenia, most of Ukraine was annexed into Poland and Lithuania. ' + 
-  'These two countries would in turn form a union together, called the Polish-Lithuanian Commonwealth, meaning that large parts of Ukraine became a part ' +
+  'These two countries would in turn form an union together, called the Polish-Lithuanian Commonwealth, meaning that large parts of Ukraine became a part ' +
   'of this one single state. Meanwhile the southern parts of Ukraine, in particular Crimea, remained within Mongol and later Tatar, ' + 
   'a Turkish nomadic people, control. The western parts of Ukraine became highly assimilated into Poland, with many converting to Catholicism and joining ' + 
   'the Polish nobility. Meanwhile in the eastern parts of Ukraine, a large Cossack host, whom were nomadic and Slavic, was formed called the Zaporozhian Cossacks.',
-  'In 1651, the Cossacks of the east were defeated by the Polish, which lead them to turn to the Russian tsar for help. While Ukraine had been tampered with by both ' +
+  'In 1651, the Cossacks of the east were defeated by the Polish, which lead them to turn to the Russian tsar for help. While Ukraine had been constantly invaded by both ' +
   'Poles and Tatars, the Russians had largely escaped foreign interference and thus were able to form a powerful state. The Russian tsar accepted the Cossacks plea for ' + 
   'aid, under the condition that they became subject to him. In 1795, after several gruesome wars between the Poles and their western Ukrainian allies and the eastern ' + 
   'Ukranian Cossacks and their Russian allies, Ukraine was ultimately conquered by the Russians. The last part of western Ukraine, Galicia, was incorporated into the ' +
@@ -125,9 +125,9 @@ let firstIndTexts =
   'Viktor Yanukovuch was the most prominent Russian oriented politician in Ukraine. He was ousted from the politcal scene in 2004 with ' + 
   'the peaceful Orange Revolution, before being ousted due to his brutal conduct in the Euromaidan in 2014.',
   'Leonid Kuchma was the second Ukranian, being more oriented to Ukraine going its own way in regards to its relationship with Russia. ',
-  'Boris Yeltsin was the first president of the newly founded Russian Federation. He allowed Ukraine to become independent and even granted them ' + 
-  'to continue keeping Crimea, even though that was much up to question at that time. ',
-  'Vladimir Putin succeeded Yeltsin and has ruled Russia since 1999. He is the one utmost responsible for Russias policy in regards to Ukraine. ' + 
+  'Boris Yeltsin was the first president of the newly founded Russian Federation. He allowed Ukraine to become independent and even agreed to let Ukraine ' + 
+  'keep Crimea, something that was up for debate at that time. ',
+  'Vladimir Putin succeeded Yeltsin and has ruled Russia since 1999. He is the one most responsible for Russias policy in regards to Ukraine. ' + 
   'He has followed a policy that entails Russia extering strong influence in what the Russians define as the "near abroad", meaning former Soviet ' + 
   'Republics. This naturally entails that Putins regime seek to have Ukraine be strongly aligned with Russia.',
   'Volodymyr Zelensky is Ukraine"s current president. He was elected after defeating the incumbent Petro Poroshenko with 73% of the vote. ' + 
@@ -148,7 +148,7 @@ let secondIndTexts =
   'the 2019 presidential election by Volodymyr Zelensky.',
   'Barack Obama was the US president during the events of the Euromaidan, the annexation of Crimea and the conflict in the Donbass. He pursued a policy of ' + 
   'compromise with the Russians, imposing fairly light sanctions while supporting the Ukranian trade agreement with the EU. ',
-  'Mikhail Gorbachev was the last Soviet leader. He was thus one of the key figures, albeit inadvertadly, in Ukraine gaining its independence. ' + 
+  'Mikhail Gorbachev was the last Soviet leader. He was thus one of the key figures, albeit inadvertently, in Ukraine gaining its independence. ' + 
   'He has in large parts endorsed Russias policy of interference in Ukraine.',
   'Leonid Kravchuk was the first president of Ukraine and served in the position from 1991 to 1994. He strongly supported Ukranian independence but lost ' + 
   'the faith of the people due to soaring inflation widespread corruption.'
