@@ -101,6 +101,7 @@
     [data-id="imgSlideContainer"] {
         background-image: url('../Images/banner1.jpg');
         background-size: 200% 400%;
+        background-position: top;
     }
 
     div[data-id="text-container"] {
@@ -145,10 +146,6 @@
 
     #newHistIdCont {
         border-bottom: 5px solid white;
-    }
-
-    [data-id="imgSlideContainer"] {
-        background: black;
     }
 
     h4[data-text] {

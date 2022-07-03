@@ -82,7 +82,7 @@
     position: absolute;
     right: 15%;
     top: 3.5%;
-    border: solid rgba(255, 255, 255, 1);
+    border: solid rgba(0, 0, 0, .9);
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 17.5px;
@@ -97,7 +97,7 @@
     position: absolute;
     left: 15%;
     top: 3.5%;
-    border: solid rgba(255, 255, 255, 1);
+    border: solid rgba(0, 0, 0, .9);
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 17.5px;
