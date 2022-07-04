@@ -108,8 +108,8 @@ export default class SlideContainer extends Component {
         let index = 0;
         isRightArrow ? index = 1 : index = 0;
 
-        arrows[index].animate({"borderColor": "rgba(255, 255, 255, 0.5)"}, 550).onfinish = () => {
-            arrows[index].animate({"borderColor": "rgba(255, 255, 255, 1)"}, 550);
+        arrows[index].animate({"borderColor": "rgba(150, 150, 150, 0.5)"}, 550).onfinish = () => {
+            arrows[index].animate({"borderColor": "rgba(0, 0, 0, .9)"}, 550);
         }
     }
 
