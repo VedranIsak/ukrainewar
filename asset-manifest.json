@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ukrainewar/static/css/main.fcf3526d.css",
-    "main.js": "/ukrainewar/static/js/main.490ab977.js",
+    "main.js": "/ukrainewar/static/js/main.9ed5f37e.js",
     "static/js/787.450f4b08.chunk.js": "/ukrainewar/static/js/787.450f4b08.chunk.js",
     "static/media/mariupol.jpg": "/ukrainewar/static/media/mariupol.211df57304e4569eef41.jpg",
     "static/media/tymoschenko.jpg": "/ukrainewar/static/media/tymoschenko.f1f288341e1aba99e997.jpg",
@@ -37,11 +37,11 @@
     "static/media/kievanRus.png": "/ukrainewar/static/media/kievanRus.af4aad7127052f01d671.png",
     "index.html": "/ukrainewar/index.html",
     "main.fcf3526d.css.map": "/ukrainewar/static/css/main.fcf3526d.css.map",
-    "main.490ab977.js.map": "/ukrainewar/static/js/main.490ab977.js.map",
+    "main.9ed5f37e.js.map": "/ukrainewar/static/js/main.9ed5f37e.js.map",
     "787.450f4b08.chunk.js.map": "/ukrainewar/static/js/787.450f4b08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf3526d.css",
-    "static/js/main.490ab977.js"
+    "static/js/main.9ed5f37e.js"
   ]
 }
